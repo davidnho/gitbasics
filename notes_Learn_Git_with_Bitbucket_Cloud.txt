@@ -1,0 +1,33 @@
+  
+  https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
+
+  757  git clone https://noel_david@bitbucket.org/noel_david/gitbasics.git
+  758  git clone https://noel_david@bitbucket.org/noel_david/gitbasics.git gitlessons
+  759  cd gitlessons/
+  760  echo "Earth's Moon" >> locations.txt
+  761  git status
+  762  git add locations.txt
+  763  git status
+  764  git commit -m 'Initial commit' [master (root-commit) fedc3d3] Initial commit 1 file changed, 1 insertion(+) create mode 100644 locations.txt
+  765  git commit -m 'Initial commit' 
+  766  git push origin master
+  767  ll
+  768  cd .git/
+  769  ll
+  770  less config 
+  771  cd ..
+  772  ll
+  773  git pull --all
+  774  git branch
+  775  git branch future-plans
+  776  git checkout future-plans 
+  777  git status
+  778  git add stationlocations 
+  779  git commit stationlocations -m 'making a change in a branch'
+  780  git branch
+  781  git status
+  782  git checkout master
+  783  git merge future-plans 
+  784  git branch -d future-plans 
+  785  git status
+  786  git push origin master
